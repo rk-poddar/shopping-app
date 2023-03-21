@@ -1,0 +1,168 @@
+:root {
+    margin: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #1c1b1b;
+   padding: 20px;
+   color: white;
+   border-radius: 20Px;
+    
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(226, 71, 15);
+}
+img {
+    height: 80px;
+}
+.card {
+    background: #1c1b1b;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.btn {
+    border: none;
+    outline: none;
+    background: rgb(226, 71, 15);
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn1{
+    border: none;
+    outline: none;
+    background: rgb(226, 71, 15);
+    padding: 10px 15px;
+    color: #fff;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn2{
+    border: none;
+    outline: none;
+    background: rgb(226, 71, 15);
+    padding: 10px 15px;
+    color: #fff;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.input{
+    border: none;
+    outline: none;
+    width: 10%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.btn:hover {
+    background: rgb(176, 70, 31);
+}
+
+.heading {
+    padding: 25px 0;
+}
+.cartCount {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+    color: rgb(226, 71, 15);
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: 500;
+    border-bottom: 3px solid rgb(226, 71, 15);
+    transition: all ease-in-out .8s;
+}
+
+.inactive{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.cartCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1c1b1b;
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.loginInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginFiled{
+    border: none;
+    outline: none;
+    width: 30%;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.loginbutton{
+    width: 32%;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background: rgb(226, 71, 15);
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.loginIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
